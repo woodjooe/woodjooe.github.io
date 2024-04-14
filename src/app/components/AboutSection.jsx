@@ -127,12 +127,12 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-[#00AAAA] mb-4">About Me</h2>
           <p className=" lg:text-1lg">
             I am a computer sciences engineering student currently enrolled at ENIS.
-            I'm interested in both offensive and defensive security.
+            I&apos;m interested in both offensive and defensive security.
             
-            But I'm mostly interested red teaming activities and malware development.
+            But I&apos;m mostly interested red teaming activities and malware development.
             <br/>
             <br/>
-            I'm also interested in cloud technologies and am currently going through
+            I&apos;m also interested in cloud technologies and am currently going through
             the google professional cloud security engineer course provided by google.
           </p>
           <div className="text-[#00FFFF] flex flex-row justify-start mt-8">
