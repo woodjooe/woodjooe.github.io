@@ -18,8 +18,8 @@ const NationalCTFs = [
   {
     postfix: "th",
     metric: "",
-    value: "6",
-    CTFname: "Hackfest Qualifications 2024",
+    value: "5",
+    CTFname: "Hackfest Finals 2024",
     CTFnameNote: "(4th in tunisia)"
   },
   {

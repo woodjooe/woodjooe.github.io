@@ -5,6 +5,7 @@ import Link from "next/link";
 const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
   return (
     <div>
+      <a href={gitUrl} target="_blank" rel="noopener noreferrer">
       <div
          className="height: 80px h-40 md:h-72 rounded-xl border-primary-500 border-2  cursor-pointer"
         style={{ background: `url(${imgUrl})`, backgroundSize: "cover" ,backgroundPosition: 'center', height : '200px', width : '350px'}}
@@ -24,6 +25,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
           </Link>
         </div>
       </div>
+      </a>
       <div className="text-white rounded-b-xl mt-3 bg-[#181818]py-6 px-4">
         <h5 className="text-xl font-semibold mb-2">{title}</h5>
         <p className="text-[#ADB7BE]">{description}</p>

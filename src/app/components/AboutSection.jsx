@@ -8,15 +8,15 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-<div class="flex flex-wrap gap-4 text-[#00AAAA]">
+<div class="flex flex-wrap gap-4 text-[#00CCCC] font-semibold">
 
 <div class="lg:w-40 bg-black rounded-lg shadow p-4 text-sm">
   <ul className="list-disc pl-2">
-    <li class="mb-2">C++</li>
+    <li class="mb-2">C / C++</li>
     <li class="mb-2">C#</li>
-    <li class="mb-2">C</li>
     <li class="mb-2">GoLang</li>
     <li class="mb-2">Java</li>
+    <li class="mb-2">Win32 Assembly</li>
   </ul>
 </div>
 
@@ -44,7 +44,7 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-<div class="w-full text-center bg-black rounded-lg shadow p-4 text-sm text-[#00AAAA]">
+<div class="w-full text-center bg-black rounded-lg shadow p-4 text-sm text-[#00CCCC] font-semibold">
   <ul className="list-disc pl-2">
     <li class="mb-2">National Engineering School of Sfax - ENIS ( 2021-2024 )</li>
     <p class="mb-2">Computer Science and Applied Mathematics Engineering Degree </p>
@@ -59,7 +59,7 @@ const TAB_DATA = [
     title: "Certifications",
     id: "certifications",
     content: (
-<div class="flex flex-wrap gap-4 text-[#00AAAA] underline">
+<div class="flex flex-wrap gap-4 text-[#00CCCC] underline font-semibold">
 
 <div class="lg:w-40 bg-black rounded-lg shadow p-4 text-sm">
   <ul className="list-disc pl-2">
@@ -93,7 +93,7 @@ const TAB_DATA = [
     title: "Others",
     id: "others",
     content: (
-<div class="w-full text-center bg-black rounded-lg shadow p-4 text-sm text-[#00AAAA] underline">
+<div class="w-full text-center bg-black rounded-lg shadow p-4 text-sm text-[#00CCCC] underline font-semibold">
   <ul className="list-disc pl-2">
     <li class="mb-2 "><a href="certs/SolLab.png"  target="_blank" rel="noopener noreferrer">National Student Entrepreneur Status</a></li>
     <p class="mb-2"> </p>
