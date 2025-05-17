@@ -84,7 +84,6 @@ const projectsData = [
     image: "/images/projects/DK.png",
     tag: ["All", "CTFs Authored"],
     gitUrl: "https://github.com/woodjooe/CTFs-Authored/tree/main/Tek-Up_MINI_CTF_2024/",
-<<<<<<< HEAD
     previewUrl: "/",
   },
   {
@@ -103,8 +102,6 @@ const projectsData = [
     image: "/images/projects/CyberTekV2.png",
     tag: ["All", "CTFs Authored", "Cyber Security"],
     gitUrl: "https://github.com/Securinets-TEKUP/CyberTEK-2.0",
-=======
->>>>>>> 6e71d6bada146f8fe8098f3123f1cc85fe857910
     previewUrl: "/",
   },
 ];
