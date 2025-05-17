@@ -11,7 +11,7 @@ const projectsData = [
     description: "Built an Intrusion Detection system based on machine learning using KDD99 and CSE-CIC-IDS2018 Datasets",
     image: "/images/projects/IDS.png",
     tag: ["All", "Cyber Security", "Artificial Intelligence"],
-    gitUrl: "https://github.com/woodjooe/IntrusionDetectionSystem/",
+    gitUrl: "https://github.com/woodjooe/Intrusion-Detection-System/",
     previewUrl: "/",
   },
   {
@@ -29,7 +29,7 @@ const projectsData = [
     description: "My writeups for some CTF competitions I've participated in",
     image: "/images/projects/DK.png",
     tag: ["All", "CTF Writeups", "Cyber Security"],
-    gitUrl: "https://github.com/woodjooe/CTF-Writeups",
+    gitUrl: "https://github.com/woodjooe/CTF-Writeups/",
     previewUrl: "/",
   },
   {
@@ -38,7 +38,7 @@ const projectsData = [
     description: "Authored CTF challenges",
     image: "/images/projects/CyberTek.png",
     tag: ["All", "CTFs Authored", "Cyber Security"],
-    gitUrl: "https://github.com/woodjooe/CTF-Writeups/tree/main/Authored",
+    gitUrl: "https://github.com/woodjooe/CTFs-Authored/tree/main/CyberTEK%20CTF%202024/",
     previewUrl: "/",
   },
   {
@@ -56,7 +56,7 @@ const projectsData = [
     description: "Made using Angular and Springboot",
     image: "/images/projects/Ang-Spring.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/woodjooe/Ang-Spring",
+    gitUrl: "https://github.com/woodjooe/Ang-Spring/",
     previewUrl: "/",
   },
   {
@@ -65,7 +65,7 @@ const projectsData = [
     description: "leveraging the power of deep learning to detect malware",
     image: "/images/projects/MalwareAnalysis.png",
     tag: ["All", "Cyber Security", "Artificial Intelligence"],
-    gitUrl: "https://github.com/woodjooe/Malware_Analysis_DP",
+    gitUrl: "https://github.com/woodjooe/Malware_Analysis_DP/",
     previewUrl: "/",
   },
   {
@@ -74,7 +74,7 @@ const projectsData = [
     description: "Python code to intercept packets, modify them, and resend them",
     image: "/images/projects/PacketSniff.png",
     tag: ["All", "Networking"],
-    gitUrl: "https://github.com/woodjooe/Packet-Manipulation",
+    gitUrl: "https://github.com/woodjooe/Packet-Manipulation/",
     previewUrl: "/",
   },
   {
@@ -83,7 +83,25 @@ const projectsData = [
     description: "Authored CTF challenges",
     image: "/images/projects/DK.png",
     tag: ["All", "CTFs Authored"],
-    gitUrl: "https://github.com/woodjooe/CTF-Writeups/tree/main/Authored",
+    gitUrl: "https://github.com/woodjooe/CTFs-Authored/tree/main/Tek-Up_MINI_CTF_2024/",
+    previewUrl: "/",
+  },
+  {
+    id: 10,
+    title: "CTF kareem 2025",
+    description: "Authored CTF challenges",
+    image: "/images/projects/CTFKareem.png",
+    tag: ["All", "CTFs Authored"],
+    gitUrl: "https://github.com/Securinets-TEKUP/CTF-KAREEM-2025",
+    previewUrl: "/",
+  },
+  {
+    id: 11,
+    title: "CyberTek V2",
+    description: "Authored CTF challenges",
+    image: "/images/projects/CyberTekV2.png",
+    tag: ["All", "CTFs Authored", "Cyber Security"],
+    gitUrl: "https://github.com/Securinets-TEKUP/CyberTEK-2.0",
     previewUrl: "/",
   },
 ];
@@ -125,13 +143,18 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Networking"
-          isSelected={tag === "Networking"}
+          name="CTF Writeups"
+          isSelected={tag === "CTF Writeups"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Artificial Intelligence"
-          isSelected={tag === "Artificial Intelligence"}
+          name="CTFs Authored"
+          isSelected={tag === "CTFs Authored"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Networking"
+          isSelected={tag === "Networking"}
         />
         <ProjectTag
           onClick={handleTagChange}
@@ -140,13 +163,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="CTF Writeups"
-          isSelected={tag === "CTF Writeups"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="CTFs Authored"
-          isSelected={tag === "CTFs Authored"}
+          name="Artificial Intelligence"
+          isSelected={tag === "Artificial Intelligence"}
         />
       </div>
       <br/>

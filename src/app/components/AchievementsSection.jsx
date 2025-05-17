@@ -18,15 +18,15 @@ const NationalCTFs = [
   {
     postfix: "th",
     metric: "",
-    value: "6",
-    CTFname: "Hackfest Qualifications 2024",
+    value: "5",
+    CTFname: "Hackfest Finals 2024",
     CTFnameNote: "(4th in tunisia)"
   },
   {
     postfix: "st",
     metric: "",
     value: "1",
-    CTFname: "SecuriNets ISET Zaghouan 2024"
+    CTFname: "CyberSphere VI 2025"
   },
 ];
 const InternationalCTFs = [
@@ -41,12 +41,6 @@ const InternationalCTFs = [
     metric: "out of 913 teams",
     value: "33",
     CTFname: "Amateurs CTF 2023"
-  },
-  {
-    postfix: "th",
-    metric: "out of 448 teams",
-    value: "17",
-    CTFname: "Arab Regional Cyber CTF 2023"
   },
   {
     postfix: "th",

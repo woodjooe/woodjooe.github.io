@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const variants = {
-  default: { width: 0 },
+  default: { width: "0px" },
   active: { width: "calc(100% - 0.75rem)" },
 };
 
