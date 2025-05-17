@@ -167,7 +167,7 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white" id="about">
+    <section className="text-white" id="about" height="1000px">
       <div className="md:grid md:grid-cols-2 gap-20 items-center py-8 px rounded-full ">
         <Image className ="rounded-md h-100 w-100 mr-2 border-2 relative  border-[#00AAAA]" src="/bg-gif.gif" width={600} height={600} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-[650px]" >
