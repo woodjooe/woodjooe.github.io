@@ -19,7 +19,7 @@ const TAB_DATA = [
   <div class="w-full text-center bg-black rounded-lg shadow p-3 text-sm text-[#00CCCC] font-semibold">
   <ul className="list-disc pl-5">
     <li class="mb-2">Cyber Security Intern - Talan ( February - June | 2024 )</li>
-    <p class="mb-1"> </p>
+    <p class="mb-1"> SOC Detection Capacity assessment - Graduation Project </p>
     </ul>
   </div>
   <br/>
