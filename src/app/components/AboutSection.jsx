@@ -60,8 +60,8 @@ const TAB_DATA = [
   <ul className="list-disc pl-4">
     <li class="mb-2">VMware Vsphere</li>
     <li class="mb-2">ESET AV</li>
-    <li class="mb-2">Zabbix</li>
-    <li class="mb-2">Elastic Stack ELK</li>
+    <li class="mb-2">WireShark</li>
+    <li class="mb-2">Elastic Stack</li>
     <li class="mb-2">Desktop Central</li>
   </ul>
 </div>
@@ -71,6 +71,8 @@ const TAB_DATA = [
     <li class="mb-2">Ansible</li>
     <li class="mb-2">Bash</li>
     <li class="mb-2">Powershell</li>
+    <li class="mb-2">Salt</li>
+
   </ul>
 </div>
 
